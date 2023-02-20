@@ -18,7 +18,7 @@ nav {
     margin: 20px 10px;
 }
 
-/* HEADER - Menù */
+/* HEADER - Menù e Accedi*/
 .link {
     text-decoration: none;
 }
@@ -38,3 +38,52 @@ header section #presentazione {
     margin: 40px 0;
     background-color: white;
 }
+
+/* MAIN - Sections */
+main section.sect {
+    background-color: beige;
+    padding: 40px 0;
+}
+
+/* MAIN - Immagine e Testo */
+.immagine {
+    width: 70%;
+    height: 400px;
+    background-color: aqua;
+}
+
+.testo {
+    width: 30%;
+    height: 400px;
+    background-color: darkorange;
+}
+
+/* MAIN - Section 4 - div sect4 */
+#sect4 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* MAIN - Section 4 - Immagine e Testo */
+.immagine-center {
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+}
+
+.testo-up {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-color: darkorange;
+}
+
+.testo-down {
+    width: 30%;
+    height: 100px;
+    text-align: center;
+    background-color: darkorange;
+}
+
+/* FOOTER */
