@@ -6,7 +6,6 @@ header {
 
 /* Nav, Parte Superiore */
 nav {
-    flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: white;
@@ -14,20 +13,12 @@ nav {
 
 /* Logo, Menù e Accedi - Misure */
 .misure-prova {
-    width: 100px;
     display: inline-block;
     margin: 20px 10px;
 }
 
-/* Menù e Accedi*/
-.link {
-    text-decoration: none;
-}
-
-
 /* Section Parte Inferiore */
-header section.header {
-    flex-direction: row;
+header section.text-header {
     justify-content: center;
 }
 
@@ -42,7 +33,7 @@ header section #presentazione {
 
 /* MAIN */
 /* Sections */
-main section.sect {
+main section {
     background-color: beige;
     padding: 40px 0;
 }
@@ -62,7 +53,6 @@ main section.sect {
 
 /* Section 4 - div sect4 */
 #sect4 {
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -106,6 +96,6 @@ footer {
 }
 
 /* Logo e Registrati */
-section {
+footer section {
     justify-content: space-between;
 }
