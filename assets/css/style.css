@@ -1,0 +1,16 @@
+/* NAV - Parte Superiore Header */
+nav {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    background-color: pink;
+}
+
+/* Logo, Menù e Accedi - Misure */
+.misure-prova {
+    width: 100px;
+    display: inline-block;
+    margin: 20px 10px;
+}
