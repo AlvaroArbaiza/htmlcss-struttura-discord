@@ -1,16 +1,40 @@
-/* NAV - Parte Superiore Header */
+/* HEADER - Background */
+header {
+    background-color: violet;
+}
+
+/* HEADER - Nav, Parte Superiore */
 nav {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 80%;
-    margin: 0 auto;
-    background-color: pink;
+    background-color: white;
 }
 
-/* Logo, Menù e Accedi - Misure */
+/* HEADER - Logo, Menù e Accedi - Misure */
 .misure-prova {
     width: 100px;
     display: inline-block;
     margin: 20px 10px;
+}
+
+/* HEADER - Menù */
+.link {
+    text-decoration: none;
+}
+
+
+/* HEADER - Section Parte Inferiore */
+header section.header {
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* HEADER - Presentazione */
+header section #presentazione {
+    text-align: center;
+    width: 60%;
+    height: 400px;
+    margin: 40px 0;
+    background-color: white;
 }
